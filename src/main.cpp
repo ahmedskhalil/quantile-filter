@@ -10,7 +10,7 @@
 #include <math.h>
 #include <iostream>
 
-double getFilterValue (const std::vector<std::vector<double>> filter_matrix, const double q)
+double getFilterValue (const std::vector<std::vector<double>>& filter_matrix, const double q)
 {
   if (q > 1.0 || q < 0.0) return -1;
   
